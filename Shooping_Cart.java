@@ -1,12 +1,11 @@
 /*
-
-  Metacube  Assignment  Shopping  Cart 
+  your  shooping  mart
 
 */
 
 
 import java.util.*; 
-class MC_1 {
+class Shooping_Cart {
 
 
   public static float calculate_bill( int order_1 , int item_code[] , float item_price[] )
