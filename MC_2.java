@@ -200,16 +200,12 @@ class  MC_2 {
    String str2 = s.nextLine();
 
   
-  System.out.println( "************ add *********** ");
+  
   System.out.println( add( str1 , str2 ) );
-  //System.out.println( "************ subtract *********** ");
-  //System.out.println( subtract( str1 , str2 ) );
-  //System.out.println( "************ Hex to Decimal *********** ");
-  //System.out.println( Hex_to_Decimal(str1) +" "+ Hex_to_Decimal(str2));
-  //System.out.println( "************ Decimal to Hexa *********** ");
-  //System.out.println( Decimal_to_Hexa( Integer.parseInt(Hex_to_Decimal(str1))) +" "+Decimal_to_Hexa( Integer.parseInt(Hex_to_Decimal(str2))) );
-  //System.out.println( "************ Hex Comparator *********** ");
-  //System.out.println( toCompare(str1 , str2 ) );
+  System.out.println( subtract( str1 , str2 ) );
+  System.out.println( Hex_to_Decimal(str1) +" "+ Hex_to_Decimal(str2));
+  System.out.println( Decimal_to_Hexa( Integer.parseInt(Hex_to_Decimal(str1))) +" "+Decimal_to_Hexa( Integer.parseInt(Hex_to_Decimal(str2))) );
+  System.out.println( toCompare(str1 , str2 ) );
   
 
  }
